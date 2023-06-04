@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>
+            <i class="fa-solid fa-battery-full fa-rotate-270" style="color: green;"></i>
+            <span>Tính thuế thu nhập cá nhân</span>
+        </h1>
+        <div class="d-flex gap-5">
+            <div class="mb-3 w-25">
+                <label for="" class="form-label"></label>
+                <input type="text" class="form-control fs-5" name="" id="hoTen" aria-describedby="helpId"
+                    placeholder="Nhập họ tên">
+            </div>
+            <div class="mb-3 w-25">
+                <label for="" class="form-label"></label>
+                <input type="number" class="form-control fs-5" name="" id="tongThuNhap" aria-describedby="helpId"
+                    placeholder="Tổng thu nhập năm" min="0" max="1000">
+            </div>
+            <div class="mb-3 w-25">
+                <label for="" class="form-label"></label>
+                <input type="number" class="form-control fs-5" name="" id="soNguoi" aria-describedby="helpId"
+                    placeholder="Số người phụ thuộc" min="0" max="1000">
+            </div>
+
+        </div>
+        <button class="btn btn-primary py-3 px-5 rounded-5 " id="btnTienThue">Tính tiền thuế</button>
+        <div class="bg-success bg-opacity-75 mt-5 text-black rounded-3 py-4 " id="txtKetQua"><i
+                class="fa-regular fa-hand-point-right fs-3 px-3" style="color: orange;"></i>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
